@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineering & Designing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="tumblr-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-card">
+                <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic">
+                <h2>Salsabila Aboulalazm</h2>
+                <p class="bio">Personal Trainer & Art Hobbyist meets Software Engineer</p>
+                <div class="profile-stats">
+                    <span><i class="fas fa-pencil-alt"></i> </span>
+                    <span><i class="fas fa-heart"></i></span>
+                </div>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#skills"><i class="fas fa-user"></i> Skills</a></li>
+                    <li><a href="#mystack"><i class="fas fa-code"></i> My Stack</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="post-container">
+                <!-- About Post -->
+                <article class="post about-post">
+                    <div class="post-header">
+                        <h2>About Me</h2>
+                        <span class="post-date">March 27, 2024</span>
+                    </div>
+                    <div class="post-content">
+                        <p>Hello! I am a professional personal trainer specializing in bodybuilding and exercise correction.</p>
+                        <p>Outside of helping people get fit and move better, I love creating art and bringing ideas to life through many mediums, one being software engineering- there's something about the mix of logic and creativity that draws me in, just like training.</p>
+                        <p>Follow me on my journey to combine fitness and software!</p>
+                    </div>
+                </article>
+
+                <!-- Skills Post -->
+                <article class="post skills-post">
+                    <div class="post-header">
+                        <h2>My Skills</h2>
+                        <span class="post-date">March 27, 2024</span>
+                    </div>
+                    <div class="post-content">
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <i class="fas fa-code"></i>
+                                <h3>Web Development</h3>
+                                <p>HTML, CSS, JavaScript</p>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fas fa-paint-brush"></i>
+                                <h3>Design</h3>
+                                <p>UI/UX, Graphic Design</p>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h3>Mobile Development</h3>
+                                <p>iOS, Android</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Contact Post -->
+                <article class="post contact-post">
+                    <div class="post-header">
+                        <h2>Get in Touch</h2>
+                        <span class="post-date">March 27, 2024</span>
+                    </div>
+                    <div class="post-content">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-button">Send Message</button>
+                        </form>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
